@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vw;
+    justify-content: center;
+    align-items: baseline;
+}
+.container > * {
+    width: 150px;
+    height: 150px;
+}
+.title-div {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.first {
+    background-color: purple;
+}
+.second {
+    background-color: skyblue;
+}
+.third {
+    background-color: green;
+}
+
+.fourth {
+    background-color: yellow;
+}
+.fifth {
+    background-color: grey;
+}
+
+.first > p {
+    color: gray;
+    text-align: center;
+}
+
+.dad-link > p {
+    color: gray;
+    text-align: center;
+}
+
+.mum-link > p {
+    color: gray;
+    text-align: center;
+}
+
+.first-kid-link > p {
+    color: gray;
+    text-align: center;
+}
+
+.second-kid-link > p {
+    color: gray;
+    text-align: center;
+}
+
+.dad-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (max-width: 1250px) {
+    .container {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    dad-main-container {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    mum-main-container {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+    }
+  }
+
+  #lock-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
